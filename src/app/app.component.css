@@ -1,0 +1,18 @@
+.root-element {
+  display: grid;
+  grid-template-areas:
+    "sidebar navbar navbar navbar navbar"
+    "sidebar categories conversation chat user-profile";
+  grid-template-columns: 1fr 2fr 3fr 5fr 4fr;
+  grid-template-rows: 1fr 10fr;
+  height: 100vh;
+  background: #F4F4F4;
+}
+
+app-sidebar {
+  grid-area: sidebar;
+}
+
+app-navbar {
+  grid-area: navbar;
+}
