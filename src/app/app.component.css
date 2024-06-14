@@ -2,11 +2,11 @@
   display: grid;
   grid-template-areas:
     "sidebar navbar navbar navbar navbar"
-    "sidebar categories conversation chat user-profile";
-  grid-template-columns: 1fr 2fr 3fr 5fr 4fr;
+    "sidebar categories conversations chat user-profile";
+  grid-template-columns: 1.5fr 3fr 4fr 6fr 5fr;
   grid-template-rows: 1fr 10fr;
   height: 100vh;
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 
 app-sidebar {
@@ -15,4 +15,16 @@ app-sidebar {
 
 app-navbar {
   grid-area: navbar;
+}
+
+app-categories {
+  grid-area: categories;
+}
+
+app-conversations {
+  grid-area: conversations;
+}
+
+app-chat {
+  grid-area: chat;
 }
