@@ -1,30 +1,33 @@
 .root-element {
-  display: grid;
-  grid-template-areas:
-    "sidebar navbar navbar navbar navbar"
-    "sidebar categories conversations chat user-profile";
-  grid-template-columns: 1.5fr 3fr 4fr 6fr 5fr;
-  grid-template-rows: 1fr 10fr;
-  height: 100vh;
-  background: #f4f4f4;
+    display: grid;
+    grid-template-areas:
+        'sidebar navbar navbar navbar navbar'
+        'sidebar categories conversations chat user-profile';
+    grid-template-columns: 1.5fr 3fr 4fr 6fr 5fr;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+    background: #f4f4f4;
 }
 
 app-sidebar {
-  grid-area: sidebar;
+    grid-area: sidebar;
 }
 
 app-navbar {
-  grid-area: navbar;
+    grid-area: navbar;
 }
 
 app-categories {
-  grid-area: categories;
+    grid-area: categories;
 }
 
 app-conversations {
-  grid-area: conversations;
+    grid-area: conversations;
 }
 
 app-chat {
-  grid-area: chat;
+    grid-area: chat;
+}
+app-user-profile {
+    grid-area: user-profile;
 }

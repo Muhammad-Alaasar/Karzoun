@@ -13,22 +13,18 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { UserComponent } from './components/conversations/user/user.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SidebarComponent,
-    NavbarComponent,
-    ConversationsComponent,
-    ChatComponent,
-    UserProfileComponent,
-    CategoriesComponent,
-    UserComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        SidebarComponent,
+        NavbarComponent,
+        ConversationsComponent,
+        ChatComponent,
+        UserProfileComponent,
+        CategoriesComponent,
+        UserComponent,
+    ],
+    imports: [BrowserModule, AppRoutingModule, NgbModule],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

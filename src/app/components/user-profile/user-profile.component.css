@@ -1,0 +1,21 @@
+.user-profile {
+    height: 90vh;
+    padding: 2vh;
+}
+
+h6.subscribed {
+    background-color: #a3f090;
+}
+
+i.bi-three-dots-vertical {
+    right: 20px;
+    top: 25px;
+}
+
+.instagram-account a {
+    color: #f13959;
+}
+
+.settings {
+    flex: 1 1 auto;
+}

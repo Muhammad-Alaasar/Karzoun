@@ -1,13 +1,13 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-user',
-  templateUrl: './user.component.html',
-  styleUrls: ['./user.component.css'],
+    selector: 'app-user',
+    templateUrl: './user.component.html',
+    styleUrls: ['./user.component.css'],
 })
 export class UserComponent {
-  @Input() username: string = '';
-  @Input() lastMessage: string = '';
-  @Input() profileImg: string = '';
-  @Input() isActive: boolean = false;
+    @Input() username: string = '';
+    @Input() lastMessage: string = '';
+    @Input() profileImg: string = '';
+    @Input() isActive: boolean = false;
 }

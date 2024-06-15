@@ -1,15 +1,15 @@
 <section class="conversations h-100 bg-white border-top border-2">
-  <form>
-    <div class="search-input position-relative mt-4 mx-4 mb-2">
-      <input type="text" class="form-control ps-5" />
-      <i class="bi bi-search"></i>
-    </div>
-  </form>
-  <app-user
-    *ngFor="let friend of friends"
-    [username]="friend.username"
-    [lastMessage]="friend.lastMessage"
-    [profileImg]="friend.profileImg"
-    [isActive]="friend.isActive"
-  ></app-user>
+    <form>
+        <div class="search-input position-relative mt-4 mx-4 mb-2">
+            <input type="text" class="form-control ps-5" />
+            <i class="bi bi-search"></i>
+        </div>
+    </form>
+    <app-user
+        *ngFor="let friend of friends"
+        [username]="friend.username"
+        [lastMessage]="friend.lastMessage"
+        [profileImg]="friend.profileImg"
+        [isActive]="friend.isActive"
+    ></app-user>
 </section>

@@ -1,53 +1,85 @@
+.chat {
+    height: 90vh;
+    padding: 2vh;
+}
+
+.chat-details {
+    flex: 0 0 auto;
+}
+
+.chat-messages {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.typing-message {
+    flex: 0 0 auto;
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 5px;
+}
+.chat-messages::-webkit-scrollbar-track {
+    background: white;
+}
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
 .received-message pre {
-  background-color: #fff5cc;
-  border-radius: 10px 10px 10px 0;
-  -webkit-border-radius: 10px 10px 10px 0;
-  -moz-border-radius: 10px 10px 10px 0;
-  -ms-border-radius: 10px 10px 10px 0;
-  -o-border-radius: 10px 10px 10px 0;
+    background-color: #fff5cc;
+    border-radius: 10px 10px 10px 0;
+    -webkit-border-radius: 10px 10px 10px 0;
+    -moz-border-radius: 10px 10px 10px 0;
+    -ms-border-radius: 10px 10px 10px 0;
+    -o-border-radius: 10px 10px 10px 0;
 }
 
 .chat-messages pre {
-  padding: 0.5rem 0.75rem;
-  font-size: 12px;
-  display: inline-block;
-  margin: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0;
 }
 
 .my-messages {
-  display: flex;
+    display: flex;
 }
 
 .my-messages pre {
-  margin-inline-start: auto;
-  background-color: #e3f2ff;
-  border-radius: 10px 10px 0 10px;
-  -webkit-border-radius: 10px 10px 0 10px;
-  -moz-border-radius: 10px 10px 0 10px;
-  -ms-border-radius: 10px 10px 0 10px;
-  -o-border-radius: 10px 10px 0 10px;
+    margin-inline-start: auto;
+    background-color: #e3f2ff;
+    border-radius: 10px 10px 0 10px;
+    -webkit-border-radius: 10px 10px 0 10px;
+    -moz-border-radius: 10px 10px 0 10px;
+    -ms-border-radius: 10px 10px 0 10px;
+    -o-border-radius: 10px 10px 0 10px;
 }
 .image-message img {
-  background-color: #d9d9d9;
-  padding: 8px 10px 0;
-  border-radius: 10px;
-  margin-inline-start: auto;
-
+    background-color: #d9d9d9;
+    padding: 8px 10px 0;
+    border-radius: 10px;
+    margin-inline-start: auto;
 }
 
 textarea {
-  border: unset;
-  resize: none;
+    border: unset;
+    resize: none;
 }
 
 textarea:focus-visible {
-  outline: unset;
+    outline: unset;
 }
 
 .bi-paperclip {
-  transform: rotate(50deg);
-  -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  -o-transform: rotate(50deg);
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
 }

@@ -1,17 +1,17 @@
 ul:first-of-type li {
-  margin-bottom: 5px;
-  padding: 0.5rem 1rem;
+    margin-bottom: 5px;
+    padding: 0.5rem 1rem;
 }
 
 ul:last-of-type li {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .active {
-  background: #ffdb44;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+    background: #ffdb44;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }

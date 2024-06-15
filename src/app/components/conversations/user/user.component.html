@@ -1,17 +1,9 @@
-<div
-  class="user d-flex align-items-center gap-2 py-3 px-4"
-  [ngClass]="{ active: isActive }"
->
-  <div class="profile-img">
-    <img
-      [src]="profileImg"
-      [alt]="username"
-      width="50"
-      class="rounded-circle"
-    />
-  </div>
-  <div class="profile-details">
-    <h6>{{ username }}</h6>
-    <p class="m-0 fs-14 text-secondary">{{ lastMessage }}</p>
-  </div>
+<div class="user d-flex align-items-center gap-2 py-3 px-4" [ngClass]="{ active: isActive }">
+    <div class="profile-img">
+        <img [src]="profileImg" [alt]="username" width="50" class="rounded-circle" />
+    </div>
+    <div class="profile-details">
+        <h6>{{ username }}</h6>
+        <p class="m-0 fs-14 text-secondary">{{ lastMessage }}</p>
+    </div>
 </div>
